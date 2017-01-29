@@ -15,3 +15,135 @@ h1 {
 h2 {
   font-size: 24px;
 }
+
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.header-logo {
+  float: left;
+  width: 150px;
+}
+
+.main-navigation {
+  width: 630px;
+  float: left;
+}
+
+.user-block {
+  width: 140px;
+  float: right;
+}
+
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+.index-content {
+  padding: 50px 80px;
+  margin-bottom: 35px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contact {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+}
+
+/* CATALOG-ITEM */
+.gallery {
+  float: left;
+  width: 500px;
+}
+
+.description {
+  float: right;
+  width: 400px;
+}
+
+/* PRICE-LIST */
+.best-tools {
+  float: left;
+  width: 400px;
+}
+
+.price-list {
+  float: right;
+  width: 460px;
+}
+
+/* CATALOG */
+.main-filter {
+  float: left;
+  width: 200px;
+}
+
+.catalog-items {
+  float: right;
+  width: 700px;
+}
+
+.catalog-item {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
+}
