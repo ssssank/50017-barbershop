@@ -1,3 +1,8 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 body,
 h1,
 h2 {
@@ -42,6 +47,11 @@ h2 {
   float: left;
 }
 
+.main-navigation li {
+  display: inline-block;
+  vertical-align: top;
+}
+
 .user-block {
   width: 140px;
   float: right;
@@ -53,6 +63,11 @@ h2 {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 25px;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .features {
@@ -146,4 +161,24 @@ h2 {
 
 .catalog-item:nth-child(3n) {
   margin-right: 0;
+}
+
+.pages-number li{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* CATALOG ITEM */
+.product-available {
+  float: left;
+  width: 100px;
+}
+
+.product-id {
+  float: right;
+  width: 150px;
+}
+
+.product-text {
+  clear: both;
 }
